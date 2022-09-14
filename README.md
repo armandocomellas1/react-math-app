@@ -29,7 +29,7 @@ If you want to clone this project:
 ## Live demo video
 
 - The project is complete so the live demo is:
-
+  [live server](https://armandocomellas1.github.io/react-math-app/)
 
 ### Prerequisites
 - Code editor
