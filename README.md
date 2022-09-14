@@ -1,5 +1,5 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-# Math Magicians: setup
+# Math magicians: full website
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -15,6 +15,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Jest
 - API's
 - ECMA6
+- Hooks
 - The header have 3 pages, Home, Calulator and Quote.
 
 ## Getting Started with Create React App
@@ -27,7 +28,8 @@ If you want to clone this project:
 
 ## Live demo video
 
-- Will be avaialable once the project is finished but the UI is ready now.
+- The project is complete so the live demo is:
+  [live server](https://armandocomellas1.github.io/react-math-app/)
 
 ### Prerequisites
 - Code editor

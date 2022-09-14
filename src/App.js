@@ -1,13 +1,38 @@
-import './App.css';
-import React from 'react';
-import Calculator from './components/Calculator';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  NavLink,
+} from 'react-router-dom';
+import styleCalc from './App.css';
+import Calc from './components/Calculator';
+import styleCalFrame from './components/Calc.css';
+import NavLinks from './components/NavLinks';
+import Home from './components/Home';
+import Quote from './components/Quote';
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <div className="App">
-        <Calculator />
+const Calculator = () => {
+  return (
+    <div className="calc_container" style={styleCalFrame}>
+      <h2>Let&apos;s do some math!</h2>
+      <div style={styleCalc}>
+        <Calc />
       </div>
-    );
-  }
+    </div>
+  );
+};
+
+function App() {
+  return (
+    <BrowserRouter>
+      <NavLinks />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/calculator" element={<Calculator />} />
+        <Route path="/quote" element={<Quote />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
+
+export default App;
