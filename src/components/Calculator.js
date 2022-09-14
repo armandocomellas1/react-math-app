@@ -8,7 +8,7 @@ const numberWithCommas = (x) => {
   return parts.join('.');
 };
 
-const Calculator = () => {
+const CalculatorDom = () => {
   const [number, numUpdate] = useState({
     total: 0,
     next: 0,
@@ -103,4 +103,4 @@ const Calculator = () => {
   );
 };
 
-export default Calculator;
+export default CalculatorDom;

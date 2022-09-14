@@ -5,14 +5,15 @@
   list-style: none;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
+  width: 100%;
 }
 
 .App {
+  width: 90%;
+  margin: 10% 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 90%;
-  margin: 5%;
+  margin-left: 10%;
 }
 
 .App .operation {
@@ -67,3 +68,5 @@
   background-color: rgb(245, 145, 62);
   border: 0.1rem solid rgb(209, 209, 209);
 }
+
+/*# sourceMappingURL=App.css.map */
